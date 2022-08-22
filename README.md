@@ -1,6 +1,6 @@
 # cs-clojure-test
 A computer science test to assess clojure skills. 
-
+<h2> Hello Fenton!! Welcome to your clojure test!!!</h2>
 <h3>1. Use Leiningen to create a new Application.</h3> 
 <h3>2. The created application must solve the following problem:</h3>
 
@@ -25,4 +25,4 @@ A computer science test to assess clojure skills.
 
 <h3>3. As mentined Data model for this problem is a json file and it's available in this repo.</h3> 
 
-
+<h3>4. Use this repo to solve and post your answer in a branch of your own. Name the branch with your name.</h3>
