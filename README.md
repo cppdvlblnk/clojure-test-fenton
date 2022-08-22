@@ -4,9 +4,11 @@ A computer science test to assess clojure skills.
 <h3>1. Use Leiningen to create a new Application.</h3> 
 <h3>2. The created application must solve the following problem:</h3>
 
-  The task is to create an application that takes a single integer input. The
-  application will download the raw data from an json file (playerlist.json)
-  and print a list of all pairs of players whose height in inches adds up to the integer input to the application. If no matches are found, the application will print "No matches found"
+  The task is to create an application that takes a single integer
+  input. The application will download the raw data from an json file
+  (playerlist.json) and print a list of all pairs of players whose
+  height in inches adds up to the integer input to the application. If
+  no matches are found, the application will print "No matches found"
 
   Sample output is as follows:
   ```
@@ -23,6 +25,14 @@ A computer science test to assess clojure skills.
   that you come across.
 
 
-<h3>3. As mentined Data model for this problem is a json file and it's available in this repo.</h3> 
+<h3>3. As mentined Data model for this problem is a json file and it's
+available in this repo.</h3>
 
-<h3>4. Use this repo to solve and post your answer in a branch of your own. Name the branch with your name.</h3>
+<h3>4. Use this repo to solve and post your answer in a branch of your
+own. Name the branch with your name.</h3>
+
+
+Run the following from the project root, where the last argument is
+the height you are looking for:
+
+clojure -M -m app.core -h 142
