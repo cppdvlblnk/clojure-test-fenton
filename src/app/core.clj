@@ -25,18 +25,6 @@
           []
           players))
 
-(defn clean-found-list [xs]
-  (->> xs
-       (reduce (fn [acc [p1 p2s]]
-                 (mapv
-                  (fn [p2]
-                    (conj acc
-                          (str (:first_name p1) " " (:last_name p1))
-                          (str (:first_name p2) " " (:last_name p2))))
-                  p2s))
-               [])
-       distinct))
-
 (defn denormalize [[p1 p2s]]
   (map (fn [p2] [p1 p2]) p2s))
 
